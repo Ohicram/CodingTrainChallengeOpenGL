@@ -1,7 +1,7 @@
 #include "Star.h"
 #include <cstdlib>
 #include <iostream>
-#include <GL\glut.h>
+#include <glut.h>
 #include "Utils.h"
 
 double Star::speed = 0;

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <GL\glew.h>
-#include <GL\glut.h>
+#include <glut.h>
 #include "Star.h"
 #include "Utils.h"
 

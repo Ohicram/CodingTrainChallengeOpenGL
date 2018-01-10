@@ -1,7 +1,7 @@
 #pragma once
 #include <cstdlib>
 #include <iostream>
-#include <GL\glut.h>
+#include <glut.h>
 
 //static double speed;
 
