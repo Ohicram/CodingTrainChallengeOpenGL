@@ -8,13 +8,9 @@ static float inline map(float value, float min_range, float max_range, float min
 }
 
 static void lights() {
-	glPushMatrix(); // push under the stack the current modeview matrix
-	glLoadIdentity(); // reset all transformations draw your light
 	glEnable(GL_LIGHTING);
 	ambientLighting();
 	pointLight(0, 0, 10, 0, 1, .0);
-	glPopMatrix(); // pop the last pushed modelview matrix to restore it as the current modelview matrix.
-
 }
 
 static void ambientLighting()

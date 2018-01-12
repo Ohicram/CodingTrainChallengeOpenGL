@@ -39,6 +39,10 @@ void Star::Update() {
 		init();
 		z = oz = 1;
 	}
+	else if (z >= 1) {
+		init();
+		z = oz = 0;
+	}
 }
 
 void Star::Show() {

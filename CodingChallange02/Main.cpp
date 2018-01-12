@@ -4,9 +4,9 @@
 #include "Utils.h"
 #include "Box.h"
 #include <vector>
-#include <mutex>
 
 using namespace std;
+
 double tx, ty, tz;
 int angle = 0;
 vector<Box> sponge, spongeBuffer;
@@ -54,7 +54,7 @@ int main(int argc, char **argv)
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowPosition(500, 200);
 	glutInitWindowSize(600, 600);
-	glutCreateWindow("Coding Challenge #2: Menger Sponge Fractalin OpenGL [All rights to Daniel Shieffman]");
+	glutCreateWindow("Coding Challenge #2: Menger Sponge Fractal OpenGL [All rights to Daniel Shieffman]");
 
 	glewInit();
 	glMatrixMode(GL_PROJECTION);
